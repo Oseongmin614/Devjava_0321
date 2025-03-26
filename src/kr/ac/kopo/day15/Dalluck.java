@@ -3,7 +3,7 @@ import java.util.Calendar;
 
 public class Dalluck{
 
-    public static void generateCalendar(int year, int month) {
+    public void generateCalendar(int year, int month) {
         Calendar c= Calendar.getInstance();
 
         //int year=2025;
@@ -17,6 +17,7 @@ public class Dalluck{
         int lastDay=c.getActualMaximum(Calendar.DAY_OF_MONTH);
         int day=c.get(Calendar.DAY_OF_WEEK);
         System.out.println("\n\t<<"+year+"년도"+month+"월"+">>");
+        System.out.println("\n월\t화\t수\t목\t금\t토\t일");
         for (int i = 0; i < lastDay; i++) {
             dayarr[i+day]= String.valueOf(i+1);
         }
