@@ -1,7 +1,6 @@
 package kr.ac.kopo.day16;
 
-import kr.ac.kopo.day07.homework.Icecream;
-import kr.ac.kopo.day11.extend.Employee;
+
 
 class AAA<T> {
 	private T value;
