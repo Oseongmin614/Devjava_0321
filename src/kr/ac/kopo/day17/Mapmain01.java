@@ -1,5 +1,6 @@
 package kr.ac.kopo.day17;
 
+import java.lang.reflect.Member;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -45,6 +46,5 @@ public class Mapmain01 {
         for (String key:Keys){
             System.out.println(key+" \t"+members.get(key));
         }
-
     }
 }
